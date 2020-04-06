@@ -1,4 +1,4 @@
-package java;
+package java1;
 
 import java.util.Scanner;
 /*
@@ -21,5 +21,6 @@ class PatternRightangle{
     Scanner in = new Scanner(System.in);
     int size = in.nextInt();
     rightangle(size);
+    in.close();
   }
 }

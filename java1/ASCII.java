@@ -1,3 +1,5 @@
+package java1;
+
 import java.util.Scanner;
 
 class ASCII{
@@ -5,5 +7,6 @@ class ASCII{
         Scanner in = new Scanner(System.in);
         char ch = in.next().charAt(0);
         System.out.println((int)ch);
+        in.close();
     }
 }

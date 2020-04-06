@@ -1,4 +1,4 @@
-package java;
+package java1;
 
 import java.util.Scanner;
 
@@ -26,5 +26,6 @@ class PatternSquareHollow{
         Scanner in = new Scanner(System.in);
         int size = in.nextInt();
         squareHollow(size);
+        in.close();
     }
 }

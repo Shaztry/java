@@ -1,4 +1,4 @@
-package java;
+package java1;
 
 import java.util.Scanner;
 /*
@@ -38,5 +38,6 @@ class PatternRhombus{
     final Scanner in = new Scanner(System.in);
     final int size = in.nextInt();
     rhombus(size);
+    in.close();
   }
 }
