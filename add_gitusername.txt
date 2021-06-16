@@ -1,0 +1,4 @@
+git config --global credential.helper store
+git push
+Username for 'https://github.com': Shaztry
+Password for 'https://Shaztry@github.com':
